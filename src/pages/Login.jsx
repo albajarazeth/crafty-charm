@@ -14,16 +14,23 @@ const Login = () => {
         <div>
           <form className="login-form" onSubmit={(e) => submitHandler(e)}>
             <label htmlFor="username">Log In</label>
-            <input id="username" type="text" placeholder="Email *" />
-            <button type="submit">Continue</button>
+            <input
+              className="email-input"
+              id="username"
+              type="text"
+              placeholder="Email *"
+            />
+            <button className="primary-btn continue-btn " type="submit">
+              Continue
+            </button>
           </form>
           <div className="google login">
-            <span>-or login with Google-</span>
-            <button>Google</button>
+            <span className="span">-or continue with-</span>
+            <button className="primary-btn">Google</button>
           </div>
           <div className="register login">
-            <span>-New to CraftyCharm?-</span>
-            <button>Register</button>
+            <span className="span">-New to CraftyCharm?-</span>
+            <button className="register-btn ">Register</button>
           </div>
         </div>
       </div>
