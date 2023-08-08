@@ -11,10 +11,10 @@
   justify-content: center;
   align-items: center;
   background-color: #ffff;
-  height: 29rem;
-  width: 25rem;
+  height: 32rem;
+  width: 23rem;
   border: #9896f1 1px solid;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .login-form {
@@ -26,24 +26,36 @@
 }
 .email-input {
   padding: 12px 9px;
-  width: 13.8rem;
+  width: 16.8rem;
   border: 1px #e6e6e6 solid;
   border-radius: 7px;
   background-color: #f9f9f9;
 }
 .primary-btn {
-  padding: 12px 9px;
-  width: 15rem;
+  padding: 5px 9px;
+  width: 18rem;
   border: none;
-  border-radius: 7px;
+  border-radius: 4px;
   cursor: pointer;
 }
 .continue-btn {
   background-color: #d693a2;
   color: #ffff;
+  padding: 12px;
 }
 .span {
   margin-bottom: 1rem;
+  font-size: 12px;
+  font-weight: 300;
+}
+.g-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+.g-text {
+  font-weight: bold;
 }
 .login {
   display: flex;
@@ -58,6 +70,6 @@
   width: 7rem;
   border: none;
   color: #fff;
-  border-radius: 7px;
+  border-radius: 4px;
   cursor: pointer;
 }
