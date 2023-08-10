@@ -1,0 +1,45 @@
+.upload-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.upload-left {
+  display: flex;
+  flex-direction: column;
+}
+.upload-text-area {
+  display: flex;
+  gap: 2rem;
+}
+.area {
+  display: flex;
+  flex-direction: column;
+}
+.description-text {
+  height: 15rem;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.instructions-text {
+  height: 10rem;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.delivery-area {
+  margin-top: 20px;
+}
+.d-option {
+  background-color: #ffd7d7;
+  margin-bottom: 5px;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 4px 2px;
+  display: flex;
+  align-items: center;
+}
