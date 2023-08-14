@@ -1,6 +1,7 @@
 import React from "react";
 import MetadataPanel from "../components/MetadataPanel";
 import "./UploadItem.css";
+import ImagesUpload from "../components/ImagesUpload";
 const UploadItem = () => {
   return (
     <div className="upload-container">
@@ -8,7 +9,9 @@ const UploadItem = () => {
         <MetadataPanel />
       </div>
       <div className="upload-left">
-        <div className="photo-area">drag n drop</div>
+        <div className="photo-area">
+          <ImagesUpload />
+        </div>
         <div className="upload-text-area">
           <div className="description-area area">
             <span>Description</span>
@@ -16,26 +19,32 @@ const UploadItem = () => {
             <textarea className="description-text" />
           </div>
           <div className="instructions-area area">
-            <span>Instruction for buyer</span>
+            <span>Instructions for buyer</span>
             <textarea className="instructions-text" />
           </div>
         </div>
-        <div className="delivery-area">
-          <span>Delivery</span>
 
-          <div className="d-option">
-            <input id="international" type="radio" />
-            <label htmlFor="international">International</label>
+        <div className="upload-bottom">
+          <div className="delivery-area">
+            <span>Delivery</span>
+            <div className="d-option">
+              <input id="international" type="radio" />
+              <label htmlFor="international">International</label>
+            </div>
+
+            <div className="d-option">
+              <input id="international" type="radio" />
+              <label htmlFor="international">Regional</label>
+            </div>
+
+            <div className="d-option">
+              <input id="international" type="radio" />
+              <label htmlFor="international">Pre-Order</label>
+            </div>
           </div>
 
-          <div className="d-option">
-            <input id="international" type="radio" />
-            <label htmlFor="international">Regional</label>
-          </div>
-
-          <div className="d-option">
-            <input id="international" type="radio" />
-            <label htmlFor="international">Pre-Order</label>
+          <div>
+            <button className="item-submit">SUBMIT</button>
           </div>
         </div>
       </div>

@@ -1,0 +1,18 @@
+.drop-container {
+  background-color: #d9d9d9;
+  padding: 2rem 3rem;
+  margin-bottom: 1rem;
+  border-radius: 15px;
+}
+.d-message {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-message-bold {
+  font-weight: 400;
+}
+.img-icon {
+  padding: 1rem;
+}
