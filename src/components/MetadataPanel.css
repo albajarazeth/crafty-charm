@@ -1,0 +1,17 @@
+.metadata-container {
+  background-color: #132743;
+  width: 20rem;
+  height: 35rem;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+.m-group {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  margin-bottom: 2rem;
+}
