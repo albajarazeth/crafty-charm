@@ -1,8 +1,12 @@
 import { useState } from "react";
 import "./ItemCard.scss";
 
+const handleClick = (myLink) => () => {
+  window.location.href=myLink;
+}
+
 const ItemCard = (props) =>(
-  <div className="card-container">
+  <div onClick={handleClick(props.link)} className="card-container">
     <div className="item-card">
       <img src={props.img} alt={props.alt}/>
       <div className="item-desc">
