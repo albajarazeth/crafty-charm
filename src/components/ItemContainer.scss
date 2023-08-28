@@ -3,16 +3,19 @@
 .wrapper{
   display: flex;
   justify-content: space-between;
+  margin: 1rem 0;
+}
+.wrapper>*{
+  flex: 0 0 auto;
 }
 .item-title{
   font-size: larger;
-  margin: 1em;
-  color: $pink;
+  margin: 2em 1em 0.5em 1em;
+  color: var(--color);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .wrapper{
     justify-content: space-evenly;
-    flex-wrap: wrap;
   }
 }
