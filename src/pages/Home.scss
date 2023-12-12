@@ -1,0 +1,63 @@
+@import '../styles/themes.scss';
+
+.welcome-message{
+  background-color: $pink;
+  padding: 5rem;
+  color: $bgcolor;
+  text-align: center;
+  font-size: larger;
+
+  .register-button{
+    border: none;
+    border-radius: 0.5rem;
+    background-color: $softPink;
+    margin-top: 2rem;
+    color: white;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+  }
+}
+.item-container{
+  margin: 2rem;
+}
+.divider{
+  margin: 2rem;
+  border-top: 2px solid $brown;
+}
+.svg-container{
+  margin-right: 1rem;
+}
+.data-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem;
+
+}
+.link{
+  width: 10rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $darkBlue;
+  border-bottom: 2px solid $brown;
+  margin: 1rem 0;
+
+  .icon{
+    margin: 0 1rem;
+  }
+
+}
+.wt-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-bottom: 3rem;
+
+  *{
+    margin: 1rem;
+  }
+}
+.footer{
+  padding: 0.5rem;
+}

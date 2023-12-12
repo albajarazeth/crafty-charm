@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+$darkBlue: #132743;
+$pink: #F76B8A;
+$softPink: #D693A2;
+$brown: #BD808A;
+$bgcolor: #FFF5F7;
+$green: #9BDEAC;
+
+html{
+  background-color: $bgcolor;
+}
+#root{
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+button{
+  font-family: "Poppins", sans-serif;
+}
+
+:export{
+  darkBlue: $darkBlue;
+  pink: $pink;
+  softPink: $softPink;
+  brown: $brown;
+  bgcolor: $bgcolor;
+  green: $green;
+}

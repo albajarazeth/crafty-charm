@@ -1,0 +1,63 @@
+@import '../styles/themes.scss';
+
+.card-container{
+  padding: 0.8rem;
+  margin: 1rem;
+  width: clamp(13rem, 15%, 20rem);
+  background-color: $bgcolor;
+  border-radius: 1.5rem;
+  border: 1rem;
+  color: $darkBlue;
+  cursor: pointer;
+  -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  .item-desc{
+    padding-top: 0.5rem;
+  }
+  img{
+    width: 100%;
+    height: 9rem;
+    margin: 0;
+    border-radius: 1.5em;
+  }
+  #card-name{
+    font-size: large;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    width: clamp(13rem, 20%, 20rem);
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    height: 100%; 
+    white-space: nowrap;
+  }
+  #card-creator{
+    font-size: large;
+    padding: 0px;
+    margin: 0px;
+  }
+  .price-container{
+    display: flex;
+    justify-content: end;
+  
+    .price-tag{
+      color: white;
+      background-color: $softPink;
+      width: 5rem;
+      text-align: center;
+      font-size: large;
+      font-weight: bolder;
+      border-radius: 0.5rem;
+      padding: 0rem 0.5rem;
+      margin: 0.5rem 0;
+
+      #card-price{
+        padding: 0.2rem;
+        margin: 0 auto;
+      }
+    }
+  }
+  
+}

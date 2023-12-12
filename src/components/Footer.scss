@@ -1,0 +1,13 @@
+@import '../styles/themes.scss';
+
+.footer{
+  display: flex;
+  justify-content: center;
+  color: $bgcolor;
+  background-color: $pink;
+  .social{
+    display: flex;
+    justify-content: space-around;
+    fill: $bgcolor;
+  }
+}
